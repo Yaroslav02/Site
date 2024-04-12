@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- основные потребности страницы
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Royal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- метаданные для мобильных устройств
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!-- JS
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script defer src="js/fontawesome/all.min.js"></script>
+
+    <!-- значки/иконки
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- предзагрузщик
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- Верхняя панель навигации / Заголовок
+    ================================================== -->
+    <header class="s-header">
+
+        <!--Логотип-->
+        <div class="s-header__logo">
+            <a href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
+        </div>
+
+        <!--Меню (навигация по странице)-->
+        <!--<div class="s-header__content">
+    
+            <nav class="s-header__nav-wrap">
+                <ul class="s-header__nav">
+                    <li><a class="smoothscroll" href="#hero" title="Intro">Главная</a></li>
+                    <li><a class="smoothscroll" href="#about" title="About">Обо Мне</a></li>
+                    <li><a class="smoothscroll" href="#services" title="Services">Сервисы</a></li>
+                    <li><a class="smoothscroll" href="#portfolio" title="Works">Работы</a></li>
+                </ul>
+            </nav> <!-- end s-header__nav-wrap -->
+
+            <!--<a href="mailto:#0" class="btn btn--primary btn--small">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
+                Get In Touch
+            </a>-->
+
+        </div> <!-- end header-content -->
+
+        <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> 
+
+    <!-- Блок 1. Приветствие
+    ================================================== -->
+    <section id="hero" class="s-hero target-section">
+
+        <div class="s-hero__bg">
+            <div class="gradient-overlay"></div>
+        </div>
+
+        <div class="row s-hero__content">
+            <div class="column">
+
+                <h2>Привет!</h2>
+                <div class="s-hero__content-about">
+
+                    <p>
+                    И добро пожаловать <br>
+                    на проектный сайт <br>
+                    производственной практики!
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!--Анимационное видео-->
+        <!--svg - вектороная графика, для отображения иконок
+        <div class="s-hero__video">
+            <a class="s-hero__video-link" href="https://player.vimeo.com/video/117310401?color=01aef0&amp;title=0&amp;byline=0&amp;portrait=0" data-lity="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21 12l-18 12v-24z"/></svg>
+                <span class="s-hero__video-text">Анимационное видео</span>
+            </a>
+        </div> -->
+
+
+    </section> 
+
+    <!-- Блок 2. Растовая, векторная и фрактикальная графика
+    ================================================== -->
+    <section id="about" class="s-about">
+
+        <div class="horizontal-line"></div>
+
+        <div class="row">
+            <div class="column large-12">
+
+                <div class="section-title" data-num="01" data-aos="fade-up">
+                    <h3 class="h6"></h3>
+                </div>
+
+            </div>
+
+
+            <div class="column large-6 w-900-stack s-about__photo-block">
+                <div class="s-about__photo" data-aos="fade-up"></div>
+            </div>
+        </div>
+
+        <div class="row block-large-1-2 block-tab-full s-about__process item-list">
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Растовая графика</h3>
+                <p>
+                Растровая графика (также известная как битовая графика или пиксельная графика) 
+                представляет собой формат изображений, который описывает изображение как сетку 
+                из отдельных пикселей. Каждый пиксель имеет свой собственный цвет и расположение 
+                на изображении, что позволяет создавать сложные изображения с помощью множества 
+                пикселей различных цветов.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Веркторная графика</h3>
+                <p>
+                Векторная графика представляет собой формат изображений, который 
+                использует математические формулы для определения фигур и объектов 
+                на изображении. В отличие от растровой графики, которая использует 
+                сетку пикселей для отображения изображений, векторная графика описывает 
+                изображение с помощью линий, кривых, точек и других геометрических объектов.
+                </p>
+            </div>
+            <div class="column item item-process" data-aos="fade-up">
+                <h3 class="item-title">Фрактальная графика</h3>
+                <p>
+                Фрактальная графика - это форма компьютерной графики, которая создает 
+                изображения путем итеративного применения математических функций или 
+                алгоритмов к начальному набору данных. Эти функции обычно описываются 
+                рекурсивно и могут порождать сложные и красочные изображения, обладающие 
+                самоподобием на различных масштабах.
+                </p>
+            </div>
+        </div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- Анимационный фальм
+    ================================================== -->
+    <section id="services" class="s-services">
+
+        <div class="row">
+            <div class="column large-12">
+                <div class="section-title" data-num="02" data-aos="fade-up">
+                    <h3 class="h6">Анимационный фильм</h3>
+                </div>
+
+            <video width="640" height="360" controls>
+                <source src="анимация.mp4" type="video/mp4">
+            </video>
+            <!--
+            </div>
+            <div class="column large-6 w-900-stack">
+                <h1 class="display-1" data-aos="fade-up">
+                    Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                    Quis dolores totam voluptatibus. 
+                </h1>
+            </div>
+            <div class="column large-6 w-900-stack">
+                <p class="lead" data-aos="fade-up">
+                Velit deleniti harum sit beatae sint repellendus expedita. Omnis possimus 
+                sed rerum tenetur ea ab aut minima magnam. Deserunt sit cupiditate 
+                similique eveniet earum. Consectetur dolores maxime quisquam voluptate magni.
+                Ut ex unde rem quod ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+        </div>
+
+        <div class="row block-large-1-2 block-tab-full s-services__services item-list">
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--product-design"></span>
+                <h3 class="item-title">Product Design</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--branding"></span>
+                <h3 class="item-title">Branding</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--frontend"></span>
+                <h3 class="item-title">Frontend Development</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--research"></span>
+                <h3 class="item-title">UX Research</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--illustration"></span>
+                <h3 class="item-title">Illustration</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+            <div class="column item item-service" data-aos="fade-up">
+                <span class="service-icon service-icon--ecommerce"></span>
+                <h3 class="item-title">E-Commerce</h3>
+                <p>
+                Deserunt rerum perspiciatis quaerat quam numquam assumenda neque. 
+                Quis dolores totam voluptatibus molestiae non. Quae exercitationem 
+                cum numquam repudiandae. Beatae eum quae. Ut ex unde rem quod 
+                ipsum consequatur. blanditiis temporibus pariatur voluptatibus molestiae.
+                </p>
+            </div>
+        </div>
+
+    </section> end s-services -->
+
+<!--Портфоллио-->
+    <section id="portfolio" class="s-portfolio">
+
+        <div class="row s-porfolio__top">
+            <div class="column large-6 w-900-stack">
+                <div class="section-title" data-num="03" data-aos="fade-up">
+                    <h3 class="h6">Изображения</h3>
+                </div>
+            </div>
+        </div> <!-- end s-portfolio__top-->
+
+        <div class="row s-portfolio__list block-large-1-2 block-tab-full collapse">
+
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-red-wheel.jpg" title="The Red Wheel" data-size="1050x700">
+                            <img src="images/portfolio/red-wheel.jpg" 
+                                 srcset="images/portfolio/red-wheel.jpg 1x, images/portfolio/red-wheel@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+    
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-music-life.jpg" title="Music Life" data-size="1050x700">
+                            <img src="images/portfolio/music-life.jpg" 
+                                 srcset="images/portfolio/music-life.jpg 1x, images/portfolio/music-life@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat"></div>
+                        <h4 class="folio-item__title"></h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link"></a>
+                    <div class="folio-item__caption">
+                        <p></p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-oi-logo.jpg" Title="OI Logo" data-size="1050x700">
+                            <img src="images/portfolio/oi-logo.jpg.jpg" 
+                                 srcset="images/portfolio/oi-logo.jpg 1x, images/portfolio/oi-logo@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat"></div>
+                        <h4 class="folio-item__title"></h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link"></a>
+                    <div class="folio-item__caption">
+                        <p></p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-corrugated-sheets.jpg" title="Corrugated Sheets" data-size="1050x700">
+                            <img src="images/portfolio/corrugated-sheets.jpg" 
+                                 srcset="images/portfolio/corrugated-sheets.jpg 1x, images/portfolio/corrugated-sheets@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat"></div>
+                        <h4 class="folio-item__title"></h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link"></a>
+                    <div class="folio-item__caption">
+                        <p></p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg" title="Sand Dunes" data-size="1050x700">
+                            <img src="images/portfolio/woodcraft.jpg" 
+                                 srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat"></div>
+                        <h4 class="folio-item__title"></h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link"></a>
+                    <div class="folio-item__caption">
+                        <p></p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+            <div class="column" data-aos="fade-up">
+                <div class="folio-item">
+                    <div class="folio-item__thumb">
+                        <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg" title="The Lamp" data-size="1050x700">
+                            <img src="images/portfolio/lamp.jpg" 
+                                 srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                        </a>
+                    </div>
+                    <div class="folio-item__info">
+                        <div class="folio-item__cat"></div>
+                        <h4 class="folio-item__title"></h4>
+                    </div>
+                    <a href="https://www.behance.net/" title="Project Link" class="folio-item__project-link"></a>
+                    <div class="folio-item__caption">
+                        <p></p>
+                    </div>
+                </div>
+            </div> <!-- end column -->
+
+        </div> <!-- folio-list -->
+
+    </section> <!-- end s-portfolio -->
+
+
+    <!-- JS скрипты
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
